@@ -1,5 +1,5 @@
-absoluteurl: https://USER.github.io
-baseurl: '/REPO'
+absoluteurl: https://pearsonca.github.io
+baseurl: '/cv'
 markdown: kramdown
 css:
   active: "active"
