@@ -1,5 +1,5 @@
-absoluteurl: https://$USER.github.io
-baseurl: '/$REPO'
+absoluteurl: https://USER.github.io
+baseurl: '/REPO'
 markdown: kramdown
 css:
   active: "active"
