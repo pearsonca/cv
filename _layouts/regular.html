@@ -2,9 +2,10 @@
 <html>
 <head>
   <title>{{ site.fullname }} CV</title>
-  <link rel="stylesheet" type="text/css" href="{{ site.absoluteurl }}{{ site.baseurl }}/css/site.css">
+  <link rel="stylesheet" type="text/css" href="{% include url.lq %}/css/site.css">
 </head>
 <body>
+<a class="contact" href="mailto:{{ site.mailto }}">{{ site.fullname }}</a>
 {{ content }}
 </body>
 </html>

@@ -1,0 +1,1 @@
+{% if domain %}{{ domain }}.{% elsif site.localdomain %}{{ site.localdomain }}.{% endif %}{{ site.absolutedomain }}

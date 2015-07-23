@@ -1,19 +1,22 @@
-absoluteurl: https://pearsonca.github.io
-baseurl: '/cv'
+absolutedomain: madeforuse.org
+localdomain: cv
 markdown: kramdown
+fullname: Carl A. B. Pearson
+shortname: Carl
+mailto: blank101@gmail.com
 css:
   active: "active"
 exclude:
-  - /*.sh
+  - '*.sh'
   - README.md
+  - CNAME
 collections:
-  pubs:
-    output: true
+  - publication
+  - job
+  - education
 defaults:
   -
     scope:
       path: ""
-      type: "pubs"
     values:
-      layout: "aip"
-fullname: Firstname M. I. Lastname
+      layout: "regular"
