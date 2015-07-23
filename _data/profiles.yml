@@ -1,0 +1,12 @@
+-
+  name: Google Scholar
+  url: "https://scholar.google.com/citations?user=XKRJAXwAAAAJ&hl=en"
+  primary: academic
+-
+  name: StackOverflow
+  url: "http://stackoverflow.com/users/167973/carl"
+  primary: software
+-
+  name: GitHub
+  url: "https://github.com/pearsonca/"
+  primary: software
