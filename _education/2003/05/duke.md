@@ -15,5 +15,8 @@ area:
 org:
   name: Duke University
   url: "http://www.duke.edu/"
-date: May 2003
+end: May 2003
+notes:
+  - "Mathematics Independent Study: *Genetic Algorithm Optimization*, advised by [Prof. Rob Brown](http://www.phy.duke.edu/~rgb/)"
+  - "Physics Independent Study: *The Pyroelectric Effect*, advised by [Prof. Bob Guenther](http://www.phy.duke.edu/content/robert-d-guenther)"
 ---

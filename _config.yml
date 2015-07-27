@@ -1,6 +1,7 @@
 absolutedomain: madeforuse.org
 localdomain: cv
 markdown: kramdown
+encoding: utf-8
 fullname: Carl A. B. Pearson
 shortname: Carl
 mailto: blank101@gmail.com
@@ -11,12 +12,26 @@ exclude:
   - README.md
   - CNAME
 collections:
-  - publication
-  - job
-  - education
+  publication:
+  employment:
+    permalink: :collection/:name
+  education:
+    permalink: :collection/:name
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "regular"
+  -
+    scope:
+      path: ""
+      type: education
+    values:
+      layout: education
+  -
+    scope:
+      path: ""
+      type: employment
+    values:
+      layout: employment

@@ -4,10 +4,7 @@
 # [{{ site.fullname }}](mailto:{{ site.mailto }}){:.contact}
 
 ## Education
-{% for edu in site.education reversed %}
-### {% include maylink.md what=edu.org %}
-{{ edu.cert.short }}
-{% endfor %}
+{% include lister.md collection=site.education %}
 ## Published Work
 
 ### Papers
@@ -19,3 +16,4 @@
 ## Teaching
 
 ## Employment
+{% include lister.md collection=site.employment %}
